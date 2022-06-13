@@ -1,4 +1,4 @@
-import 'package:eatplek/Screens/SplashScreen.dart';
+import 'package:eatplek/Screens/OnboardingScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: SplashScreen.id,
+        initialRoute: OnboardingScreen.id,
         routes: {
-          SplashScreen.id: (context) => SplashScreen(),
+          OnboardingScreen.id: (context) => OnboardingScreen(),
         });
   }
 }
